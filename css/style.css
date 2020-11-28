@@ -122,6 +122,14 @@ nav{
     padding-top: 1rem;
 }
 
+
+.social img{
+    width: 2rem;
+    margin-left: 1rem;
+    height: auto;
+    fill: white;
+}
+
 .proj-thumbs{
     padding: 0 10%;
     display: grid;
