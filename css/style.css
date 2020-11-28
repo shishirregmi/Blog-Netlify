@@ -183,3 +183,73 @@ footer{
     align-items: center;
     padding-top: 2vh;
 }
+
+
+
+
+@media only screen and (max-width: 1795px) {
+
+    .landing .container{
+        background-position-x:  -10px ;
+    }
+}
+
+@media only screen and (max-width: 1795px) {
+
+    .landing .container{
+        background-position-x:  -80px ;
+    }
+}
+
+@media only screen and (max-width: 1470px) {
+
+    .landing .container h1{
+        font-size: 3rem;
+    }
+
+    
+    .landing .container h2{
+        font-size: 2.5rem;
+    }
+
+    
+    .landing .container h5{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing .container{
+        padding-top:20vh;
+        background: none;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landing .container{
+        background: none;
+        padding-top: 10vh;
+    }
+
+    .landing .container h5{
+        font-size: 1rem;
+    }
+
+    .btn-clear{
+        width:40%;
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: 0.75rem;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .nav-links{
+        display: none;
+    }
+}
+
