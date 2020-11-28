@@ -2,11 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Shishir Regmi</title>
 </head>
-<body>
+<body>  
+    <section class="landing">
+        <nav>
+            <div class="logo">
+                <h1>Shishir</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h2>Hello, I'm</h2>
+            <h1>Shishir Regmi</h1>
+            <h5>I am a Computer Student aspiring to be a professional Web Developer.</h5>
+            <div class="button">
+                 <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="button">
+                <a href="#" class="btn btn-clear">Download CV</a>
+           </div>
+        </div>
+    </section>
+
+    <section class="project">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="proj-thumbs">
+                <img src="img/thumb-1.jpg" alt >
+                <img src="img/thumb-2.jpg" alt >
+                <img src="img/thumb-1.jpg" alt >
+                <img src="img/thumb-2.jpg" alt >
+                <img src="img/thumb-1.jpg" alt >
+                <img src="img/thumb-2.jpg" alt >
+                <img src="img/thumb-1.jpg" alt >
+                <img src="img/thumb-2.jpg" alt >
+                <img src="img/thumb-1.jpg" alt >
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
     
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+    
+                 <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+                <div class="button">
+                    <button class="btn btn-clear">Submit</button>
+                </div>
+              </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2020 - Shishir Regmi - All rights reserved</p>      
+    </footer>
 </body>
 </html>
