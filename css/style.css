@@ -65,8 +65,7 @@ nav{
 }
 
 .landing .container h1{
-    font-size: 5rem;
-    
+    font-size: 5rem;    
 }
 
 .container h2{
@@ -106,7 +105,6 @@ nav{
     padding: 10px 10%;
 }
 
-
 .btn-clear{
     background: #457081;
     border: 1px solid #F6D9D9;
@@ -121,6 +119,7 @@ nav{
 
 .project{
     background:#559A90;
+    padding-top: 1rem;
 }
 
 .proj-thumbs{
@@ -130,6 +129,7 @@ nav{
     justify-content: center;
     gap: 20px;
     padding-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .proj-thumbs img{
